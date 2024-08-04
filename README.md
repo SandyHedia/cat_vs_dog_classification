@@ -60,10 +60,10 @@ The dataset used in this project is the [Kaggle Cats and Dogs Dataset](https://w
   - Freezing all layers: Used MobileNet as a feature extractor.
   - Freezing only convolutional layers: Fine-tuned the fully connected layers for better performance.
   - Freezing the first two layers: A balanced approach to fine-tuning.
-- **Google ViT**: Fine-tuned the ViT model to achieve high accuracy in classifying cat and dog images.
+- **Google ViT**: Achieved the best performance with an accuracy of 99.68%.
 
 ## Conclusion
-This project demonstrates the effectiveness of convolutional neural networks and transfer learning techniques in image classification tasks. The fine-tuning of pre-trained models, such as MobileNet and Google ViT, significantly enhances the performance of the classification model.
+This project demonstrates the effectiveness of convolutional neural networks and transfer learning techniques in image classification tasks. The fine-tuning of pre-trained models, such as MobileNet and Google ViT, significantly enhances the performance of the classification model. The ViT model provided the best performance with an accuracy of 99.68%.
 
 ## Future Work
 - Experiment with different CNN architectures and hyperparameters.
